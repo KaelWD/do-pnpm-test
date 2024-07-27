@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@hono/node-server':
+        specifier: ^1.12.0
+        version: 1.12.0
+      hono:
+        specifier: ^4.5.1
+        version: 4.5.1
+
+packages:
+
+  '@hono/node-server@1.12.0':
+    resolution: {integrity: sha512-e6oHjNiErRxsZRZBmc2KucuvY3btlO/XPncIpP2X75bRdTilF9GLjm3NHvKKunpJbbJJj31/FoPTksTf8djAVw==}
+    engines: {node: '>=18.14.1'}
+
+  hono@4.5.1:
+    resolution: {integrity: sha512-6q8AugoWG5wlrjdGG8OFFiqEsPlPGjODjUik48sEJeko4Tae1UsLS2vUiYHLEJx1gJvOZa4BWkQC+urwDmkEvQ==}
+    engines: {node: '>=16.0.0'}
+
+snapshots:
+
+  '@hono/node-server@1.12.0': {}
+
+  hono@4.5.1: {}
